@@ -46,7 +46,8 @@
 | 系统接口 | swagger支持 暂不处理   |
 
 
-## 技术框架选型
+## 项目依赖
+- github.com/dgrijalva/jwt-go v3.2.0+incompatible
 - github.com/dgrijalva/jwt-go v3.2.0+incompatible
 - github.com/gin-contrib/cors v1.4.0
 - github.com/gin-gonic/gin v1.9.1
@@ -62,6 +63,8 @@
 - github.com/spf13/viper v1.17.0
 - github.com/tealeg/xlsx v1.0.5
 - golang.org/x/crypto v0.14.0
+- golang.org/x/net v0.15.0
+- golang.org/x/text v0.14.0
 - gorm.io/driver/mysql v1.5.2
 - gorm.io/driver/postgres v1.5.4
 - gorm.io/gorm v1.25.5
